@@ -1,0 +1,47 @@
+/*
+Services.css
+Author: Derek Jeong
+Description: Services.css is a css styling file for implementing styles, fonts, and design 
+of services pages (AppDev.js, WebDev.js, Desgin.js)
+*/
+
+.Services {
+        height: 100%;
+}
+
+@media screen and (min-width: 100px) {
+
+        .Services {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+}
+
+@media screen and (min-width: 760px) {
+
+        .Services {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+        .Services {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 3%;
+                margin: 0 auto;
+        }
+	.header{
+		font-size: 3.0rem;
+		font-family: 'Lato', sans-serif;
+		font-weight: 200;
+	
+	}
+}

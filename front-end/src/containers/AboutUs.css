@@ -1,0 +1,17 @@
+/*
+AboutUs.css
+Author: Derek Jeong
+Description: AboutUs.css is a css styling file for implementing styles, fonts, and design.
+*/
+
+.AboutUs {
+        height: 100%;
+}
+
+.avatar {
+        object-fit: cover;
+            vertical-align: middle;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+}

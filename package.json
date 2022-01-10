@@ -1,0 +1,31 @@
+{
+  "name": "wizrdsite_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm install && npm run install-client && npm run install-server",
+    "build": "npm run build-server && npm run build-client",
+    "build-server": "cd server/email && npm run build",
+    "build-client": "cd front-end && npm run build",
+    "install-client": "cd front-end && npm install",
+    "install-server": "cd server/email && npm install",
+    "start-client": "cd front-end && npm start",
+    "start-server": "cd server/email && npm start",
+    "start": "npm run init && concurrently --kill-others-on-fail \"npm run start-server\" \"npm run start-client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebWizrds/WizrdSite_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebWizrds/WizrdSite_react/issues"
+  },
+  "homepage": "https://github.com/WebWizrds/WizrdSite_react#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

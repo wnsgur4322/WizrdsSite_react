@@ -1,0 +1,47 @@
+/*
+Products.css
+Author: Derek Jeong
+Description: Products.css is a css styling file for implementing styles, fonts, and design 
+of Products pages
+*/
+
+.Products {
+        height: 100%;
+}
+
+@media screen and (min-width: 100px) {
+
+        .Products {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+}
+
+@media screen and (min-width: 760px) {
+
+        .Products {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+        .Products {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 3%;
+                margin: 0 auto;
+        }
+	.header{
+		font-size: 3.0rem;
+		font-family: 'Lato', sans-serif;
+		font-weight: 200;
+	
+	}
+}

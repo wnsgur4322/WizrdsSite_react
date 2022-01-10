@@ -1,0 +1,90 @@
+/*
+Careers.css
+Author: Derek Jeong
+Description: Careers.css is a css styling file for implementing styles, fonts, and design.
+*/
+
+.Careers {
+        height: 100%;
+}
+
+.header-area {
+        flex: 1;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 100;
+        padding-top: 5px;
+        max-height: 330px;
+        -webkit-transition: all .5s ease 0s;
+        -moz-transition: all .5s ease 0s;
+        -o-transition: all .5s ease 0s;
+        transition: all .5s ease 0s;
+      }
+      
+.header-area.header-sticky {
+        max-height: 80px;
+        padding-top: 0px;
+}
+
+.head-text {
+        position: relative;
+}
+
+
+@media screen and (min-width: 100px) {
+
+        .text-on-image {
+                position: absolute;
+                margin: 0 auto;
+                text-align: center;
+                left: 25%;
+                right: 25%;
+                top: 25%;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-family:sans-serif;
+                font-size: 1.5rem;
+        }
+        .roles {
+                font-size: 1.0rem;
+        }
+}
+
+@media screen and (min-width: 760px) {
+
+        .text-on-image {
+                position: absolute;
+                margin: 0 auto;
+                text-align: center;
+                left: 25%;
+                right: 25%;
+                top: 35%;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-family:sans-serif;
+                font-size: 3.0rem;
+        }
+        .roles {
+                font-size: 1.5rem;
+        }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+        .text-on-image {
+                position: absolute;
+                margin: 0 auto;
+                text-align: center;
+                left: 25%;
+                right: 25%;
+                top: 35%;
+                color: white;
+                font-family:sans-serif;
+                font-size: 3.0rem;
+        }
+        .roles {
+                font-size: 1.5rem;
+        }
+}

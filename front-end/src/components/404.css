@@ -1,0 +1,39 @@
+/*
+404.css
+Author: Derek Jeong
+Description: 404.css is a css styling file for implementing styles, fonts, and design.
+*/
+
+@media screen and (min-width: 100px) {
+
+        .NotFound {
+                height: 100%;
+                padding-top: 18%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 600;
+                text-align: center;
+        }
+}
+
+@media screen and (min-width: 760px) {
+
+        .NotFound {
+                height: 100%;
+                padding-top: 24%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+        .NotFound {
+                height: 100%;
+                padding-top: 18%;
+                padding-bottom: 16%;
+                margin: 0 auto;
+        }
+}
